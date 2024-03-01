@@ -32,4 +32,21 @@
 
 ## Цитаты
 
+### Репозиторий для обучения pull request
+
+1. Делаем fork репозитория, в котором потом хотим сделать pull request/  Ищем кнопку Fork  на странице репозитория.
+
+2. Выполняем команду клонирования из своей fork-копии git clone git@github.com *YOURE_GITHAB*.
+
+3. Создаем новую ветку и вносим необходимые изменения в файл 
+git checkout -b updatereadme
+vim (имя файла).md
+git add (имя файла).md
+git commit -m "Назвать сообщение".
+
+4. Делаем push
+git push --set-upstream origin updatereadme
+
+5. Переходим на свою страницу репозитория. Выбираем ветку updatereadme  и жмем кнопку  Compare & pull request
+ 
 ## Заключение
